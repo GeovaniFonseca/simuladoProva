@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 40px 0 40px 0;
+    color: aliceblue;
+}
+
+body , form{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22,6,6);
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 30px;
+    padding: 0 15px 0 15px;
+}
+
+button{
+    width: 150px;
+    height: 25px;
+}
+
+#tokenDisplay {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    word-break: break-all; /* Quebra de palavra para evitar que o token ultrapasse o contêiner */
+}
